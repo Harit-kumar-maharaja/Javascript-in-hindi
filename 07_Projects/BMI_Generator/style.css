@@ -1,0 +1,63 @@
+body {
+    background-color: darksalmon;
+}
+
+.heading{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    text-decoration: underline;
+}
+
+#height-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#weight-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.calculate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculate-btn{
+    margin: 15px;
+    padding: 15px;
+    font-weight: bolder;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.guide{
+    align-content: center;
+}
+
+.heading-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: chartreuse;
+    font-size: xx-large;
+}
